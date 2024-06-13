@@ -30,6 +30,3 @@ public:
 	}
 
 	void insert(string element) // Insert a node in the binary search tree
-
-		COMMIT : memasukan insert node binary search tree
-

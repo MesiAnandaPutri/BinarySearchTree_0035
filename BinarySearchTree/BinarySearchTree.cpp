@@ -40,4 +40,4 @@ public:
 		Node* parent = NULL;
 		Node* currentNode = NULL;
 		search(element, parent, currentNode); // Locate the node which be the parent of the node to be inserted
-	COMMIT: menemukan node yang akan menjadi induk dari node yang akan di sisipkan
+

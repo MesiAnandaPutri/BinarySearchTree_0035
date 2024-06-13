@@ -19,3 +19,13 @@ Node(string i, Node* l, Node* r) {
 	rightchild = r;
 }
 };
+
+class BinaryTree
+{
+public:
+	Node* ROOT;
+	BinaryTree()
+	{
+		ROOT = NULL; //Initializing ROOT to null
+	}
+

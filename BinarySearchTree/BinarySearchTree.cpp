@@ -30,3 +30,11 @@ public:
 	}
 
 	void insert(string element) // Insert a node in the binary search tree
+
+	{
+		Node* newNode = new Node(element, NULL, NULL); // Allocate memory for the new node
+		newNode->info = element; // Assign value to the data field of the new data
+		newNode->leftchild = NULL; // Make the left child of the new node point NULL
+		newNode->rightchild = NULL; // Make the right child of the new data point to NULL
+
+	COMMIT: mengalokasikan memori, memberi nilai ke field data ke node baru dan setel pointer kiri& kanan dari node baru ke NULL

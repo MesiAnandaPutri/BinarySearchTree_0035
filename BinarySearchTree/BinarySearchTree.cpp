@@ -37,4 +37,4 @@ public:
 		newNode->leftchild = NULL; // Make the left child of the new node point NULL
 		newNode->rightchild = NULL; // Make the right child of the new data point to NULL
 
-	COMMIT: mengalokasikan memori, memberi nilai ke field data ke node baru dan setel pointer kiri& kanan dari node baru ke NULL
+		
